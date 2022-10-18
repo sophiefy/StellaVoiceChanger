@@ -1,0 +1,6 @@
+Cython==0.29.21
+librosa==0.8.0
+numpy==1.21.6
+scipy
+torch
+torchaudio
