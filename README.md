@@ -30,7 +30,7 @@ Then, just click the `load model` button. If successful, you should see the foll
 
 In this step, your will need to load the audio you want to convert to the model. You can upload an existing file or turn on the microphone to record one.
 
-To upload an existing file, just click the `upload button`. Be careful that you can only upload an `wav` file!
+To upload an existing file, just click the `upload button`. Be careful that you can only upload a `wav` file!
 
 ![gui-3](assets/gui-3.png)
 
