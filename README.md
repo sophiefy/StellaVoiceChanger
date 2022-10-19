@@ -1,9 +1,10 @@
 # Stella Voice Changer
 
+[English](README.md)|[中文](README-zh.md)
+
 ## Introduction
 
-Stella Voice Changer is an easy-to-use application with GUI for deep-learning-based voice conversion inference on local machines. Now it supports record model CPU inference  on Windows.
-
+Stella Voice Changer is an easy-to-use application with GUI for deep-learning-based voice conversion inference on local machines. Now it supports record model CPU inference, tested on Windows 10 and Windows 11.
 
 
 ## How to Use
