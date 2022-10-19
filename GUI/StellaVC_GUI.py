@@ -142,13 +142,6 @@ class BaseGuiWidget(QMainWindow):
         self.uploadLabel.move(729, 100)
 
 
-        # convert
-        self.convertButton = QPushButton('', self.mainFrame)
-        self.convertButton.setStyleSheet("QPushButton {border-image: url(assets/start.png); background-color: transparent}")
-        self.convertButton.setFixedSize(50, 50)
-        self.convertButton.move(440, 605)
-        self.convertButton.clicked.connect(self.convert)
-
         # play
         self.playFrame = QFrame(self.mainFrame)
         self.playFrame.setFixedSize(1100, 200)
@@ -156,6 +149,14 @@ class BaseGuiWidget(QMainWindow):
         self.playFrame.setFrameShape(QFrame.Box)
         self.playFrame.setFrameShadow(QFrame.Raised)
         self.playFrame.setStyleSheet("QFrame {border-width: 3px; border-style: solid; border-color: rgb(18, 150, 219); background-color: transparent}")
+
+        # convert
+        self.convertButton = QPushButton('', self.mainFrame)
+        self.convertButton.setStyleSheet("QPushButton {border-image: url(assets/start.png); background-color: transparent}")
+        self.convertButton.setFixedSize(50, 50)
+        self.convertButton.move(440, 605)
+        self.convertButton.clicked.connect(self.convert)
+
 
         self.playButton = QPushButton('', self.mainFrame)
         self.playButton.setFixedSize(100, 100)
@@ -244,7 +245,6 @@ class BaseGuiWidget(QMainWindow):
     def upload(self):
         file_path = QFileDialog.getOpenFileName(self, 'Choose source audio file', '/home', f'(*.wav)')
         if file_path[0]:
-            self.uploadLabel.setStyleSheet("QLabel {border-image: url(assets/from-upload-2.png); background-color: transparent}")
             load_audio(file_path[0])
 
     def convert(self):
