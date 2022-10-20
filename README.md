@@ -17,7 +17,7 @@ The GUI is like the following. It consists of three parts: configuration frame, 
 
 ### Step 1: Load Models
 
-First, make sure you have download the pretrained models and corresponding configuration files to your local machines. They are all provided [here](https://github.com/Francis-Komizu/StellaVC-ModelList).
+First, make sure you have downloaded the pretrained models and corresponding configuration files to your local machines. They are all provided [here](https://github.com/Francis-Komizu/StellaVC-ModelList).
 
 Click the `hubert path`, `vits path` and `config path` button to select models and configuration path on your local machines. 
 
