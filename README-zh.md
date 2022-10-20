@@ -1,6 +1,6 @@
 # Stella Voice Changer
 
-[English](README.md)|[中文](README-zh.md)
+[English](README.md) | [中文](README-zh.md)
 
 ## 介绍
 
