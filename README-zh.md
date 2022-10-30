@@ -4,7 +4,7 @@
 
 ## 介绍
 
-Stella Voice Changer是一款基于深度学习的变声器，可以在本地运行。该应用已经Windows 10和Windows 11上成功运行。
+Stella Voice Changer是一款基于深度学习的变声器，可以在本地运行。该应用已经在Windows 10和Windows 11上成功运行。
 
 
 ## 使用方法

@@ -1,0 +1,33 @@
+<RCC>
+  <qresource prefix="resources">
+    <file>common/icon-nat.ico</file>
+    <file>common/logo.ico</file>
+    <file>common/upload-unable.png</file>
+    <file>common/start-unable.png</file>
+    <file>common/download.png</file>
+    <file>common/from-mic.png</file>
+    <file>common/from-upload.png</file>
+    <file>common/gpu-on.png</file>
+    <file>common/mic.png</file>
+    <file>common/play.png</file>
+    <file>common/pause.png</file>
+    <file>common/upload.png</file>
+    <file>common/start-record.png</file>
+    <file>common/stop-record.png</file>
+    <file>common/wave.png</file>
+    <file>common/wave-unable.png</file>
+    <file>common/start-record-unable.png</file>
+    <file>common/bg-init.png</file>
+    <file>common/gpu-off.png</file>
+    <file>common/microphone-unable.png</file>
+    <file>common/mode-off.png</file>
+    <file>common/play-off.png</file>
+    <file>common/portrait-init.png</file>
+    <file>common/start-unable.png</file>
+    <file>common/main.py</file>
+    <file>common/download-off.png</file>
+    <file>common/from-mic-unable.png</file>
+    <file>common/from-upload-unable.png</file>
+    <file>common/start.png</file>
+  </qresource>
+</RCC>
